@@ -1,0 +1,264 @@
+.shops__box{
+    margin-top: 10px;
+}
+
+.shops__head{
+    text-align: center;
+    color: #FFF;
+}
+
+.shops__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+   
+}
+
+.shops__item{
+    width: 20%;
+    height: 22%;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.shops__item:nth-child(4){
+    /* margin-right: 0; */
+}
+
+.item__img{
+    width: 100%;
+    height: auto;
+}
+
+.item__header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item__id{
+    margin-top: 15px;
+}
+
+.item__img{
+    border-radius: 10px;
+}
+
+.bxs-edit:hover{
+    color: salmon;
+}
+
+.bxs-message-square-x:hover{
+    color: salmon;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    background-color: #333;
+    padding: 10px;
+}
+
+.form__headers{
+    text-align: center;
+    /* margin-top: 30px; */
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.form__box{
+    /* margin-top: 30px; */
+    /* margin-left: 200px; */
+}
+
+.input{
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn1{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: transparent;
+    font-size: 30px;
+    /* transform: translate(30px); */
+    cursor: pointer;
+}
+
+.btn2{
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    margin-left: 110px;
+}
+
+.form__btn{
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    /* transform: translateY(18px); */
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.form__btn:hover{
+    background-color: #000;
+    color: #FFF;
+}
+
+.navLink{
+    text-decoration: none;
+}
+
+/* Modal */
+
+.dialog__modal{
+    width: 300px;
+    height: 280px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px, 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    position: fixed;
+    transition: all 0.5s ease;
+    background-color: #FFF;
+    background-color: papayawhip    ;
+    animation-name: my;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+@keyframes my {
+    0% {
+        top: 0%; left: 40%; 
+        transform: translate(0%, 0%);
+        /* transform: rotate(0deg); */
+    }
+    100% {
+        top: 40%;
+        left: 40%;
+        /* transform: rotate(360deg); */
+
+        /* transform: translate(-50%, -50%); */
+    }
+}
+
+.modal__head{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.modal__head:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.modal__input{
+    width: 250px;
+    padding: 5px;
+    border: 2px solid #333;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.modal__input:active{
+    border-color:  tomato;
+}
+
+.modal__input:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.modal__btn{
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 70px ;
+}
+
+.modal__btn:hover{
+    background-color: blue;
+    color: #FFF;
+}
+
+.x_btn{
+    width: 35px;
+    height: 37px;
+    position: relative;
+    bottom:10px; left: 240px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid darkslategrey;
+    border-radius: 50%;
+    background-color: #000;
+    color: #FFF;
+}
+
+.delete{
+    width: 250px;
+    height: 200px;
+}
+
+.delete__btn1{
+    width: 100px;
+    height: 30px;
+    background-color:tomato;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #ccc;
+}
+
+.hr{
+    color: #ccc;
+    margin-top: 80px;
+}
+
+.shops__link{
+    text-decoration: none;
+    color:#000;
+}
